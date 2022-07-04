@@ -1,0 +1,67 @@
+body{
+    background-color: #323232;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.kruh1{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;  
+    left: 50%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.kruh2{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;  
+    left: 35%;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+
+.kruh3{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;  
+    left: 65%;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+
+#sekunda{
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;  
+    left: 65%;
+
+}
+
+#minuta{
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;  
+    left: 50%;
+    
+}
+
+#hodina{
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;  
+    left: 35%;
+}

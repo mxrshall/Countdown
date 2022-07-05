@@ -65,3 +65,17 @@ body{
     top: 50%;  
     left: 35%;
 }
+
+button{
+    height: 55px;
+    width: 140px;
+    background-color: #323232;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;  
+    left: 50%;
+    border-radius: 50px;
+    border: 3px solid white;
+}

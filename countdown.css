@@ -66,7 +66,7 @@ body{
     left: 35%;
 }
 
-button{
+#start{
     height: 55px;
     width: 140px;
     background-color: #323232;
@@ -80,12 +80,12 @@ button{
     border: 3px solid white;
 }
 
-#plus{
+#plus1{
     height: 45px;
     width: 100px;
     background-color: #323232;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 70%;  
@@ -94,12 +94,40 @@ button{
     border: 3px solid white;
 }
 
-#minus{
+#plus2{
+    height: 40px;
+    width: 90px;
+    background-color: #323232;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;  
+    left: 62%;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+#plus3{
+    height: 35px;
+    width: 80px;
+    background-color: #323232;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;  
+    left: 1276px;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+#minus1{
     height: 45px;
     width: 100px;
     background-color: #323232;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 70%;  
@@ -107,3 +135,33 @@ button{
     border-radius: 50px;
     border: 3px solid white;
 }
+
+#minus2{
+    height: 40px;
+    width: 90px;
+    background-color: #323232;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;  
+    left: 38%;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+#minus3{
+    height: 35px;
+    width: 80px;
+    background-color: #323232;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;  
+    left: 644px;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+

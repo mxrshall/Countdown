@@ -79,3 +79,31 @@ button{
     border-radius: 50px;
     border: 3px solid white;
 }
+
+#plus{
+    height: 45px;
+    width: 100px;
+    background-color: #323232;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;  
+    left: 57%;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+#minus{
+    height: 45px;
+    width: 100px;
+    background-color: #323232;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;  
+    left: 43%;
+    border-radius: 50px;
+    border: 3px solid white;
+}

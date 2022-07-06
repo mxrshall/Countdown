@@ -23,13 +23,15 @@ function odpocet_sekunda(){
         sekunda.innerHTML = cas_sekunda
     }
 
-    if (cas_sekunda == 0){
+    if (cas_sekunda <= 0){
         cas_sekunda = 60
+        sekunda.innerHTML = "00"
     }
 
     if (cas_sekunda == 59){
         odpocet_minuta()
     }
+
 }
 
 function odpocet_minuta(){
@@ -59,7 +61,8 @@ function odpocet_hodina(){
     }
 
     if (cas_hodina <= 0){
-        cas_hodina = 60
+        cas_hodina = 0
+        hodina.innerHTML = "00"
     }
 }
 

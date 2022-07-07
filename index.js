@@ -32,6 +32,10 @@ function odpocet_sekunda(){
         odpocet_minuta()
     }
 
+    if(cas_sekunda === 60 && cas_minuta === 0 && cas_hodina === 0){
+        clearInterval(interval)
+    }
+
 }
 
 function odpocet_minuta(){
@@ -73,7 +77,7 @@ start.addEventListener("click", function(){
 })
 
 plus1.addEventListener("click", function(){ //plus 30s
-    cas_sekunda = cas_sekunda + 30
+    cas_sekunda = cas_sekunda + 10
     sekunda.innerHTML = cas_sekunda
 
     if (cas_sekunda >= 59){
@@ -112,15 +116,15 @@ plus3.addEventListener("click", function(){ //plus 1h
 }) 
 
 minus1.addEventListener("click", function(){ //minus 30s
-    cas_sekunda = cas_sekunda - 30
+    cas_sekunda = cas_sekunda - 10
     sekunda.innerHTML = cas_sekunda
 
     if (cas_sekunda < 0){
-        cas_sekunda = 30
-        sekunda.innerHTML = "30"
+        cas_sekunda = 50
+        sekunda.innerHTML = "50"
     }
 
-    if (cas_sekunda ==0){
+    if (cas_sekunda == 0){
         sekunda.innerHTML = "00"
     }
 

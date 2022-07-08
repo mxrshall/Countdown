@@ -68,6 +68,7 @@ function odpocet_hodina(){
         cas_hodina = 0
         hodina.innerHTML = "00"
     }
+
 }
 
 

@@ -14,6 +14,7 @@ body{
     left: 50%;
     border-radius: 50%;
     border: 5px solid white;
+    animation: animate 5s ease-out infinite forwards;
 }
 
 .kruh2{
@@ -25,6 +26,7 @@ body{
     left: 35%;
     border-radius: 50%;
     border: 5px solid white;
+    animation: animate 5s ease-out infinite forwards;
     
 }
 
@@ -37,6 +39,7 @@ body{
     left: 65%;
     border-radius: 50%;
     border: 5px solid white;
+    animation: animate 5s ease-out infinite forwards;
     
 }
 
@@ -164,4 +167,17 @@ body{
     border: 3px solid white;
 }
 
+@keyframes animate
+{
+    0%, 100%{
+        box-shadow: 0px 0px 5px #B440F2;
+    }
+    50%{
+        box-shadow: 0px 0px 20px #B440F2;
+    }
+    
+}
 
+button:hover{
+    box-shadow: 0px 0px 20px #B440F2;
+}

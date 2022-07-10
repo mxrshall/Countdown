@@ -1,7 +1,9 @@
 const hodina = document.getElementById("hodina")
 const minuta = document.getElementById("minuta")
 const sekunda = document.getElementById("sekunda")
+
 const start = document.getElementById("start")
+const reset = document.getElementById("reset")
 
 const plus1 = document.getElementById("plus1")
 const plus2 = document.getElementById("plus2")
@@ -73,8 +75,18 @@ function odpocet_hodina(){
 
 
 start.addEventListener("click", function(){
-        interval = setInterval(odpocet_sekunda, 1000)
-        odpocet_sekunda()
+    interval = setInterval(odpocet_sekunda, 1000)
+    odpocet_sekunda()
+})
+
+reset.addEventListener("click", function(){
+    clearInterval(interval)
+    cas_sekunda = 0
+    cas_minuta = 0
+    cas_hodina = 0
+    sekunda.innerHTML = "00"
+    minuta.innerHTML = "00"
+    hodina.innerHTML = "00"
 })
 
 plus1.addEventListener("click", function(){ //plus 30s

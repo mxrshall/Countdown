@@ -36,6 +36,9 @@ function odpocet_sekunda(){
 
     if(cas_sekunda === 60 && cas_minuta === 0 && cas_hodina === 0){
         clearInterval(interval)
+        document.querySelector(".kruh1").style.animation ="none"
+        document.querySelector(".kruh2").style.animation ="none"
+        document.querySelector(".kruh3").style.animation ="none"
     }
 
 }
@@ -76,6 +79,9 @@ function odpocet_hodina(){
 
 start.addEventListener("click", function(){
     interval = setInterval(odpocet_sekunda, 1000)
+    document.querySelector(".kruh1").style.animation ="animate 5s ease-out infinite forwards"
+    document.querySelector(".kruh2").style.animation ="animate 5s ease-out infinite forwards"
+    document.querySelector(".kruh3").style.animation ="animate 5s ease-out infinite forwards"
     odpocet_sekunda()
 })
 
@@ -87,6 +93,9 @@ reset.addEventListener("click", function(){
     sekunda.innerHTML = "00"
     minuta.innerHTML = "00"
     hodina.innerHTML = "00"
+    document.querySelector(".kruh1").style.animation ="none"
+    document.querySelector(".kruh2").style.animation ="none"
+    document.querySelector(".kruh3").style.animation ="none"
 })
 
 plus1.addEventListener("click", function(){ //plus 30s
